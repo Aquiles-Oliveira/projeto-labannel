@@ -1,0 +1,196 @@
+@charset "UTF-8";
+:root {
+    --cor-principal: #BB8059;
+    --cor-segundaria:#91725D;
+    --cor-terciaria:#665A53;
+    --cor-quartenaria:#3C3531;
+    
+}
+
+.dancing-script- <uniquifier> {
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  body {
+    background-image: linear-gradient(to bottom, #BB8059, #91725D);
+    font-family: "Dancing Script";
+  }
+  
+  .logo{
+    font-family: "Dancing Script";
+    font-size: 3vw;
+    background-color: #7e503249;
+    border-radius: 5px;
+    padding: 2.5px 15px ;
+    background-size: 20%;
+  }
+
+    header {
+       
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 10px 20px;
+    }
+    .restaurante {
+        border-radius: 5px;
+        border: 2px solid rgba(0, 0, 0, 0.359);
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+  img {
+    border-radius: 5px;
+  }
+
+  .nav {
+    text-decoration: none;
+    color: black;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 2.8vw;
+  }
+
+  .nav a:hover {
+    color: white;
+    text-decoration: overline;
+  }
+
+  article h2 {
+    text-align: center;
+    font-size: 2em;
+  }
+
+  .cafe img {
+    width: 29vw; 
+    height: auto;
+  }
+
+  .almoço img{
+    width: 27vw;
+    height: auto;
+  }
+
+  .pizzaria img {
+    width: 35vw;
+    height: auto;
+   }
+
+  .comida {
+    text-align: center;
+    display: flex;
+    gap: 15px;
+    width: 95vw;
+
+    justify-content: center;
+}
+
+.cardapio img {
+    justify-content: left;
+}
+.cardapio h2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 25px;
+    color: white;
+    font-size: 6vw;
+}
+
+.cardapio li {
+  display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    text-align: center;
+}
+
+.cardapio a {
+    font-size: 3vw;
+    text-decoration: none;
+
+
+    display: block;
+    padding: 10px ;
+    margin-top: 40px;
+    background-color:#665A53;
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 10px;
+
+}
+
+.cardapio a:hover {
+    color: yellow;
+}
+
+.cardapio {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+.ladodireito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: auto;
+  margin-right: 70px;
+  
+
+  font-size: 2em;
+}
+
+iframe {
+    width: 35vw;
+    height: 50vw;
+    display: flex;
+    
+}
+
+footer {
+    background-color: #bda395c5;
+    font-family: Arial, Helvetica, sans-serif;    
+    padding: 5px;
+    margin: 10%;
+    border-radius: 5px;
+    font-size: 2.5vw;
+}
+
+.info {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin: 20px;
+}
+
+.info h3 {
+  font-size: 20px;
+}
+
+.contato {
+    text-align: right;
+}
+
+.info a {
+  text-decoration: none;
+  color: black;
+  font-size: 17px;
+}
+
+.info a:hover {
+  color: white;
+  text-decoration: overline;
+}
